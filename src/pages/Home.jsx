@@ -2,7 +2,7 @@ import { useState } from "react";
 import SearchBox from "../components/SearchBox";
 import AqiCard from "../components/AqiCard";
 import api from "../services/api";
-import "./Home.css"; // <<--- Add CSS file
+import "./Home.css"; 
 
 function Home() {
   const [data, setData] = useState(null);
