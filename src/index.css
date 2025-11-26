@@ -1,0 +1,94 @@
+/* RESET + DEFAULTS ---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #1c3f82, #3e5da8);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN CONTAINER ------------------------------------- */
+.main-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+/* TITLE ---------------------------------------------- */
+.main-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* SEARCH BOX ----------------------------------------- */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  background: #0b193b;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-box button:hover {
+  background: #132a63;
+}
+
+/* AQI CARD ------------------------------------------- */
+.aqi-card {
+  background: rgba(125, 161, 223, 0.452);
+  backdrop-filter: blur(7px);
+  padding: 25px;
+  border-radius: 16px;
+  margin-top: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.aqi-card h2 {
+  margin-bottom: 12px;
+}
+
+.aqi-value {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aqi-details p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
