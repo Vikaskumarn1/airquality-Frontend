@@ -19,21 +19,10 @@ The project is built with a React.js frontend and a Spring Boot backend, integra
 
 🛠️ Tech Stack
 Frontend
-
 React.js
 
-Axios
-
-CSS (Glassmorphism + Gradient UI)
-
 Backend
-
 Spring Boot
 
-Spring Web
 
-Spring Cache
 
-RestTemplate / WebClient
-
-Lombok
