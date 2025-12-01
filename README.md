@@ -5,18 +5,18 @@ The project is built with a React.js frontend and a Spring Boot backend, integra
 
 🚀 Features
 
-🔍 Search AQI by city name
-🌐 Real-time AQI data fetched from external API
-⚡ Backend caching to reduce API calls and improve speed
-✨ Modern responsive UI with smooth animations
-🛡️ Robust error handling for invalid cities or API failures
+🔍 Search AQI by city name<br>
+🌐 Real-time AQI data fetched from external API<br>
+⚡ Backend caching to reduce API calls and improve speed<br>
+✨ Modern responsive UI with smooth animations<br>
+🛡️ Robust error handling for invalid cities or API failures<br>
 🔄 Clean modular architecture (DTO, Service, Controller, Exception package)
 
-🛠️ Tech Stack
-Frontend
+🛠️ Tech Stack<br>
+Frontend<br>
 React.js
 
-Backend
+Backend<br>
 Spring Boot
 
 
