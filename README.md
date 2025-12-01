@@ -1,9 +1,9 @@
-🌍 Air Quality Index (AQI) Search Application
+<b>🌍 Air Quality Index (AQI) Search Application</b>
 
 A full-stack web application that allows users to search and view real-time Air Quality Index (AQI) data for any city worldwide.
 The project is built with a React.js frontend and a Spring Boot backend, integrating with an external AQI provider and using caching for improved performance.
 
-🚀 Features
+<u>🚀 Features</u>
 
 🔍 Search AQI by city name<br>
 🌐 Real-time AQI data fetched from external API<br>
@@ -12,7 +12,7 @@ The project is built with a React.js frontend and a Spring Boot backend, integra
 🛡️ Robust error handling for invalid cities or API failures<br>
 🔄 Clean modular architecture (DTO, Service, Controller, Exception package)
 
-🛠️ Tech Stack<br>
+<u>🛠️ Tech Stack</u> <br>
 Frontend<br>
 React.js
 
